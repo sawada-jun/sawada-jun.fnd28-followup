@@ -71,7 +71,7 @@ startButton.addEventListener("click", () => {
     goldContainer.style.backgroundImage = "url('金貨.jpg')";
     goldContainer.style.backgroundSize = "cover";
     goldContainer.style.backgroundPosition = "center";
-  }, 64000); // 
+  }, 63500); // 
 });
 //p1テキストを挿入してアニメーション実施
 startButton.addEventListener("click", () => {
