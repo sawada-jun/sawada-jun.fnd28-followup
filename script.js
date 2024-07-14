@@ -162,7 +162,7 @@ startButton.addEventListener("click", () => {
 
   setTimeout(() => {
     divContainer.remove();
-  }, 64000)
+  }, 63500)
 });
 //カウントダウンの実行関数
 const countdown = () => {
