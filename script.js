@@ -192,7 +192,7 @@ startButton.addEventListener("click", () => {
 //54秒後に速度追加
 startButton.addEventListener("click", () => {
   setTimeout(() => {
-    let intervalId2 = setInterval(changeColor, 300);
+    let intervalId2 = setInterval(changeColor, 600);
     intervalIdArray.push(intervalId2);
   }, 54000);
 });
