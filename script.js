@@ -208,7 +208,7 @@ startButton.addEventListener("click", () => {
   setTimeout(() => {
     let intervalId4 = setInterval(changeColor, 50);
     intervalIdArray.push(intervalId4);
-  }, 62000);
+  }, 61500);
 });
 
 startButton.addEventListener("click", () => {
@@ -265,10 +265,10 @@ startButton.addEventListener("click", () => {
     p5.style.animation = "fadeIn 6s forwards";
     goldContainer.appendChild(p5);
     setTimeout(() => {
-      p4.style.animationName = "fadeOut";
-      p4.style.animationDuration = "3s";
-      p4.style.animationFillMode = "forwards";
-    }, 7000);
+      p5.style.animationName = "fadeOut";
+      p5.style.animationDuration = "3s";
+      p5.style.animationFillMode = "forwards";
+    }, 20000);
   }, 93000);
 });
 
