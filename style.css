@@ -96,7 +96,15 @@ button {
   position: absolute;
   justify-content: center;
   top: 20%;
-
+}
+#startButton:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 10px black;
+}
+#startButton:active {
+  box-shadow: 0 0 5px black;
+  margin-top: 5px;
 }
 
 @keyframes fadeIn {
@@ -138,7 +146,7 @@ button {
   color: black;
   font-size: 200px;
   position: absolute;
-  top:15%;
+  top:18%;
   left:33%
 }
 
