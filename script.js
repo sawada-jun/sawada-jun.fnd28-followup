@@ -279,10 +279,3 @@ startButton.addEventListener("click", () => {
   }, 93000);
 });
 
-startButton.addEventListener("click", () => {
-  setTimeout(() => { 
-    goldContainer.style.backgroundImage = "url('金2.jpg')";
-    goldContainer.style.backgroundSize = "cover";
-    goldContainer.style.backgroundPosition = "center";
-  }, 117000); 
-});
