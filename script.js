@@ -68,7 +68,7 @@ startButton.addEventListener("click", () => {
 startButton.addEventListener("click", () => {
   setTimeout(() => {
     setInterval(createGold, 100);
-    goldContainer.style.backgroundImage = "url('金貨.jpg')";
+    goldContainer.style.backgroundImage = "url('金.jpg')";
     goldContainer.style.backgroundSize = "cover";
     goldContainer.style.backgroundPosition = "center";
   }, 63500); // 
@@ -196,6 +196,13 @@ startButton.addEventListener("click", () => {
     intervalIdArray.push(intervalId2);
   }, 54000);
 });
+
+startButton.addEventListener("click", () => {
+  setTimeout(() => {
+    let intervalId2 = setInterval(changeColor, 300);
+    intervalIdArray.push(intervalId2);
+  }, 57000);
+});
 //60秒後に速度追加
 startButton.addEventListener("click", () => {
   setTimeout(() => {
@@ -272,4 +279,10 @@ startButton.addEventListener("click", () => {
   }, 93000);
 });
 
-
+startButton.addEventListener("click", () => {
+  setTimeout(() => { 
+    goldContainer.style.backgroundImage = "url('金2.jpg')";
+    goldContainer.style.backgroundSize = "cover";
+    goldContainer.style.backgroundPosition = "center";
+  }, 117000); 
+});
