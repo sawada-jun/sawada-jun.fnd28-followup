@@ -269,13 +269,34 @@ startButton.addEventListener("click", () => {
     p5.style.fontSize = "50px";
     p5.textContent = "The End.";
     p5.style.opacity = 0;
-    p5.style.animation = "fadeIn 6s forwards";
+    p5.style.animation = "fadeIn 3s forwards";
     goldContainer.appendChild(p5);
     setTimeout(() => {
       p5.style.animationName = "fadeOut";
       p5.style.animationDuration = "3s";
       p5.style.animationFillMode = "forwards";
-    }, 20000);
+    }, 6000);
   }, 93000);
 });
+
+startButton.addEventListener("click", () => {
+  setTimeout(() => {
+    const reStart = document.createElement("button");
+    reStart.id = "reStart";
+    reStart.style.width = "250px";
+    reStart.style.height = "50px";
+    reStart.style.position = "absolute";
+    reStart.style.transform = "translateX(-50%)";
+    reStart.style.top = "40%";
+    reStart.style.left = "50%";
+
+    reStart.style.backgroundColor = "gray";
+    reStart.textContent = "HOME";
+
+    goldContainer.appendChild(reStart)
+    document.getElementById("reStart").addEventListener("click", () => {
+      location.reload();
+    });
+  }, 103000);
+})
 
